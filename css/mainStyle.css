@@ -71,6 +71,10 @@ body {
     cursor: pointer;
 }
 
+.slide0 {
+    background-image: url("/img/01.png");
+}
+
 .slide1 {
     background-image: url("https://lloyd3126.github.io/pixelcity/image/banner/1/1.png");
 }
