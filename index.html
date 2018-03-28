@@ -27,9 +27,11 @@
                     <div class="swiper-container">
 
                         <div class="swiper-wrapper">
-                            <a href="https://www.facebook.com/NCYU.DEDM.GraduationExhibition/">
-                                <div class="swiper-slide slide0"></div>
-                            </a>
+                            <div class="swiper-slide slide0">
+                                <a href="https://www.facebook.com/NCYU.DEDM.GraduationExhibition/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
                             <div class="swiper-slide slide1"></div>
                             <div class="swiper-slide slide2"></div>
                             <div class="swiper-slide slide3"></div>
@@ -59,7 +61,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
             var mySwiper = new Swiper('.swiper-container', {
@@ -96,15 +98,18 @@
                 },
             });
 
-
-
-
             $(".swiper-slide").hover(function() {
                 mySwiper.autoplay.stop();
             }, function() {
                 mySwiper.autoplay.start();
             });
 
+
+            $(".swiper-slide a").hover(function() {
+                $(".fa-external-link-alt").css("opacity", "1");
+            }, function() {
+                $(".fa-external-link-alt").css("opacity", "0");
+            });
         });
     </script>
 </body>
