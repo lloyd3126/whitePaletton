@@ -188,3 +188,22 @@ body {
         background-color: #000000;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .fa-external-link-alt,
+    .fa-video,
+    .fa-cloud-download-alt {
+        position: absolute;
+        top: 2.5%;
+        left: 2.5%;
+        font-size: 2rem;
+        color: #EEE;
+        opacity: 1;
+    }
+    .swiper-slide a {
+        width: 10%;
+        height: 10%;
+        display: inline-block;
+        background-color: #000000;
+    }
+}
