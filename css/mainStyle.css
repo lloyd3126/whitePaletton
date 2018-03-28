@@ -175,8 +175,9 @@ body {
     .fa-video,
     .fa-cloud-download-alt {
         position: absolute;
-        top: 5%;
-        left: 5%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-size: 2rem;
         color: #EEE;
         opacity: 1;
@@ -186,6 +187,7 @@ body {
         height: 10%;
         display: inline-block;
         background-color: #000000;
+        position: relative;
     }
 }
 
@@ -194,9 +196,10 @@ body {
     .fa-video,
     .fa-cloud-download-alt {
         position: absolute;
-        top: 2.5%;
-        left: 2.5%;
-        font-size: 2rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
         color: #EEE;
         opacity: 1;
     }
@@ -205,5 +208,6 @@ body {
         height: 10%;
         display: inline-block;
         background-color: #000000;
+        position: relative;
     }
 }
