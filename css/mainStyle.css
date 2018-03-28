@@ -153,7 +153,7 @@ body {
     background-image: url("https://lloyd3126.github.io/pixelcity/image/banner/13/1.png");
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 769px) {
     /* body {
         background-color: #666;
     } */
@@ -170,5 +170,21 @@ body {
     .sqareBox {
         width: 100vw;
         height: 100vh;
+    }
+    .fa-external-link-alt,
+    .fa-video,
+    .fa-cloud-download-alt {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        font-size: 2rem;
+        color: #EEE;
+        opacity: 1;
+    }
+    .swiper-slide a {
+        width: 10%;
+        height: 10%;
+        display: inline-block;
+        background-color: #000000;
     }
 }
