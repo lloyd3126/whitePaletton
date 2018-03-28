@@ -80,7 +80,9 @@ body {
     /* background-color: #f24; */
 }
 
-.swiper-slide .fa-external-link-alt {
+.fa-external-link-alt,
+.fa-video,
+.fa-cloud-download-alt {
     position: absolute;
     top: 50%;
     left: 50%;
